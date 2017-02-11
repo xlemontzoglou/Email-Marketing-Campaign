@@ -61,12 +61,15 @@ namesEmailLists <- separatenamesEmailLists[separatenamesEmailLists !=""]
 #Getting Datasets
 
 EmailActivity <- read.table(EmailData, skip = dataset_limits[1,"start"], 
-                            nrows = dataset_limits[1, "end"], sep = "\t")
+                            nrows = dataset_limits[1, "end"], sep = "\t",
+                            col.names = namesEmailActivity)
 
 EmailCampaigns <- read.table(EmailData, skip = dataset_limits[2,"start"], 
-                             nrows = dataset_limits[2, "end"], sep = "\t")
+                             nrows = dataset_limits[2, "end"], sep = "\t",
+                             col.names = namesEmailCampaigns)
     
 EmailLists <- read.table(EmailData, skip = dataset_limits[3,"start"], 
-                         nrows = dataset_limits[3, "end"], sep = "\t")
+                         nrows = dataset_limits[3, "end"], sep = "\t",
+                         col.names = namesEmailLists)
 
 
