@@ -1,4 +1,4 @@
-library('dplyr')
+library('dplyr') #install.packages('dplyr')
 library('R.utils') #install.packages('R.utils')
 
 EmailData <-'email_data.sql'
