@@ -2,7 +2,7 @@
 
 ##### GetDatasets.R
 
-First to fetch data form the SQL dump file, the script GetDatasets.R . It fetches the 3 datasets from the file, imporing them in R as dtaframes with the corresponding naming, given within the file.
+First to fetch data form the SQL dump file (named within the script  "email_data.sql"), the script GetDatasets.R . It fetches the 3 datasets from the file, imporing them in R as dtaframes with the corresponding naming, given within the file.
 
 ##### DataSinking.R
 
