@@ -36,9 +36,8 @@ Based on the analysis in ```Analysis.R``` and the preproccesing of the data form
     *   Action rate
     *   Campaign per country action rate
     *   Weekday action rate
+    *   Day performance rate
 *   Non subscribers
     *   Forward open rate
-    *   Forward click rate
-*   General
-    *   Day performance rate
+    *   Forward click rate    
 
